@@ -4,7 +4,7 @@
   "description": "A proxy service for retrieving the latest boat times to and from Lindholmspiren (Gothenburg).",
   "main": "index.js",
   "scripts": {
-		"start": "node index.js",
+    "start": "babel-node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/marlonicus/radar/issues"
   },
-  "homepage": "https://github.com/marlonicus/radar#readme"
+  "homepage": "https://github.com/marlonicus/radar#readme",
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.16.0",
+    "koa": "^2.0.0-alpha.7",
+    "koa-router": "^7.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0"
+  }
 }
