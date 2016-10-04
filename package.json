@@ -1,0 +1,24 @@
+{
+  "name": "radar",
+  "version": "1.0.0",
+  "description": "A proxy service for retrieving the latest boat times to and from Lindholmspiren (Gothenburg).",
+  "main": "index.js",
+  "scripts": {
+		"start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonicus/radar.git"
+  },
+  "keywords": [
+    "Gothenburg",
+    "Boat"
+  ],
+  "author": "Marlonicus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlonicus/radar/issues"
+  },
+  "homepage": "https://github.com/marlonicus/radar#readme"
+}
