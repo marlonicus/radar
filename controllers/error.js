@@ -1,5 +1,5 @@
 export default {
-	get: async (ctx) => {
+	get: ctx => {
 		ctx.body = `404`
 	}
 }
